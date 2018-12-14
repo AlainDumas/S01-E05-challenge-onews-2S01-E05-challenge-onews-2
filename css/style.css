@@ -1,6 +1,5 @@
 .wrapper{
     width: 100vw;
-    background-color: #a124cc;
     display: flex;
     flex-direction:row;
 }
@@ -20,8 +19,7 @@
 
 .right-column {
     overflow-y:scroll;
-    background-color: red;
-    color:white;
+    color:#141414;
     max-height:100vh;
     width:50%;
 }
@@ -32,15 +30,15 @@
 .logo-titre{
     display: flex;
     background-image: url("../images/onews.svg");
-    background-size: auto;
-    background-position: left;
+    background-size: 30px;
+    background-position: left top;
     background-repeat: no-repeat;
 }
 
 .logo-titre h1{
     width: 100px;
     line-height: .8;
-    padding: 8px;
+    padding: 40px;
 }
 
 .left-column h1{
@@ -103,9 +101,18 @@ nav {
 .left-column li > a  {
     color: white;
     font-size: 0.8em;
-
+}
 
 /* ----------------------------------------
------ colonne de gdroite----------------
+----- colonne de droite----------------
 ---------------------------------------- */
----------------------------------------- */
+.right-column {
+    background-color: #eaeaea;
+}
+.main {
+    display: flex;
+    
+}
+.card {
+    width: 50%;
+}
