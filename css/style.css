@@ -38,7 +38,7 @@
 .logo-titre h1{
     width: 100px;
     line-height: .8;
-    padding: 40px;
+    padding-left: 40px;
 }
 
 .left-column h1{
@@ -106,13 +106,92 @@ nav {
 /* ----------------------------------------
 ----- colonne de droite----------------
 ---------------------------------------- */
+
 .right-column {
-    background-color: #eaeaea;
+    background-color: #f9f9f9;
 }
-.main {
+
+header {
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 80px;
+    font-family: 'Roboto' sans-serif;
+    vertical-align: center;
+}
+
+main {
     display: flex;
-    
+    flex-wrap: wrap;
 }
+
 .card {
     width: 50%;
+    padding: 25px;
+    border: solid 1px #eaeaea;
+    background-color: white;
+    height:400px;
 }
+
+.news {
+    font-size:0.7em;
+    color:white;
+    font-weight:700;
+    background-color: rgb(78, 197, 78);
+    padding:3px 5px;
+    border-radius:3px;
+}
+
+.work {
+    font-size:0.7em;
+    color:white;
+    font-weight:700;
+    background-color:rgb(21, 95, 243);
+    padding:3px 5px;
+    border-radius:3px;
+}
+
+.author {
+    margin: 15px auto;
+ }
+
+.author img {
+    width: 25px;
+    display: inline;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.date {
+    display: inline;    
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8em;
+    color: #969494;
+}
+
+article a {
+    text-decoration: underline;
+    font-weight: 700;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s; 
+}
+
+article a:hover {
+    color: blue;
+}
+
+.team {
+    font-size: 0.7em;
+    color: white;
+    background-color: red;
+    padding: 3px 5px;
+    border-radius:3px;
+    font-weight:700;
+
+}   
+    
